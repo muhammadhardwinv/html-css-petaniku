@@ -1,0 +1,189 @@
+/* font google */
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Indie+Flower&family=Roboto:wght@100&display=swap');
+
+/* contoh pemakaian
+    font-family: 'East Sea Dokdo', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Roboto', sans-serif;
+*/
+:root{
+    --main-black: #000000;
+    --main-lavender: #EEEEFF;
+    --main-green: #87D68D;
+}
+
+*{
+    padding : 0;
+    margin : 0;
+    box-sizing: inherit;
+    background-size:cover;
+    display:absolute;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: content-box;
+}
+
+ul,li{
+    list-style: none;
+    
+}
+
+a{
+    color:black;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* article */
+.banner img
+{
+    width:100%;
+    height: auto;
+}
+
+.about{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.about h2{
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-shadow: 1px 1px 3px black;
+}
+.about p{   
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 40px;
+}
+
+.bawah-banner
+{
+    display:flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+.bawah-banner img
+{
+    width: 35%;
+    border-radius: 5%;
+}
+
+.banner-tengah{
+    background-color: var(--main-lavender);
+    padding-top: 50px;
+    padding-bottom: 80px;
+    margin: 20px 0px;
+}
+.ayo
+{
+    text-align:center;
+    font-weight: bolder;
+    text-shadow: 1px 1px 3px black;
+    padding:20px;
+}
+.ayo h2
+{
+    text-align:center;
+    font-weight: bolder;
+}
+.masuk-daftar
+{
+    text-align: center;
+}
+
+.masuk-daftar a
+{
+    font-style: none;
+    text-decoration: none;
+    color:black;
+}
+
+.masuk-daftar a:hover
+{
+    font-style: none;
+    text-decoration: none;
+    color:black;
+}
+
+
+/* akhir artikel */
+
+/* navbar */
+body nav{
+    position: sticky;
+    top:0;
+    background-color: white;
+    list-style-type: none;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+nav ul{
+    display:flex;
+}
+
+nav li{
+    margin:0 10px;
+    margin-top:10px;
+}
+
+.image-home img
+{
+    width:50%;
+}
+
+.search-input{
+    width:430px;
+    height:auto;
+    border-radius:2px;
+    margin-left:-180px;
+}
+
+/* akhir navbar */
+
+/* footer */
+footer{
+    border-top: 2px solid black;
+}
+
+.footer1
+{
+    display:flex;
+    justify-content: space-evenly;  
+}
+
+.imgfooter{
+    justify-content: center;
+    margin-left: -20px;
+    
+}
+
+.footer1 a{
+    text-decoration: none;
+    color:black;
+    margin-top: 30px;
+}
+.footer2 .socmed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.socmed a{
+    color: black;
+    margin-top: 10px;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+/* akhir footer */
